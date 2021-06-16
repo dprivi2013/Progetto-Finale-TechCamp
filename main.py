@@ -23,6 +23,7 @@ height = 50
 #drop = [x,y,velocità]
 bluedrop = [randint(0,480),0,randint(10,30)/10]
 blackdrop = [randint(0,480),0,randint(10,30)/10]
+purpledrop = [randint(0,480),0,randint(10,30)/10]
 screen = pygame.display.set_mode((500,500))
 pygame.draw.rect(screen, (0,0,0),(0,450,50,50))
 
